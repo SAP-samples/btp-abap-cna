@@ -2,19 +2,33 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
 -->
 
-# S/4HANA Cloud side-by-side Bonus Calculation (RAP Application)
+# S/4HANA Cloud side-by-side Bonus Calculation Extension (RAP Application)
 
 ## Description
 This is a reference application to demonstrate the cloud native capabilities of the ABAP RESTfull Application Programming Model (RAP) leveraging all available runtimes from SAP Business Technology Platform (Cloud Foundry, ABAP and Kyma) and some additional services such as Destination and Event Mesh.
 
+## Solution Architecture
+![Bonus Calculation Architecture](https://i.imgur.com/AMuy3M9.jpeg "Bonus Calculation Architecture")
+
 ## Requirements
+* Eclipse IDE (2021-06 or 2021-09)
+* ABAP Development Tools for Eclipse (ADT)
+* abapGit plug-in for Eclipse
+* SAP Business Technolgy Platform subaccount (with Cloud Foundry, ABAP Environment and Kyma Runtime enabled)
 
 ## Download and Installation
+* Open Eclipse IDE
+* Connect to Cloud Project to BTP ABAP Environment
+* Link this Git Repo to the abapGit in Eclipse, checking the "Pull after link" option
+* Activate all artifacts from the packge into which you pulled the code in your ABAP Environment
+* Open the service binding: Z_SB_BONUS_CALCULATION_SA and click "Publish"
+* Right clikc the BonusCalculation entity and select Open "Open Fiori Elements App Preview"
 
 ## Known Issues
+N/A
 
 ## How to obtain support
-[Create an issue](https://github.com/SAP-samples/<repository-name>/issues) in this repository if you find a bug or have questions about the content.
+[Create an issue](https://github.com/SAP-samples/btp-abap-cna/issues) in this repository if you find a bug or have questions about the content.
  
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
