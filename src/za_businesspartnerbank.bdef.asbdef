@@ -1,0 +1,7 @@
+ implementation abstract;
+ define behavior for ZA_BUSINESSPARTNERBANK
+  {
+  create;
+ update;
+ delete;
+ }

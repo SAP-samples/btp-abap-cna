@@ -1,0 +1,10 @@
+@EndUserText.label: 'Service definition for bonus calculation'
+define service Z_SD_BONUS_CALCULATION_SA {
+  expose ZI_BONUS_CALC_SA as BonusCalculation;
+  expose ZI_CE_Employee_SA as Employee;
+  expose ZI_BONUS_RELEASE_STATUS_SA as ReleaseStatus;
+  expose I_Currency as Currency;
+  expose I_CurrencyText as CurrencyText;
+  expose I_UnitOfMeasure as UnitOfMeasure;
+  expose I_UnitOfMeasureText as UnitOfMeasureText;
+}

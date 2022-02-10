@@ -1,0 +1,17 @@
+{
+"BASEINFO":
+{
+"FROM":
+[],
+"ASSOCIATED":
+[
+"ZYY1_SALESORDERITEMCUBESA"
+],
+"BASE":
+[],
+"ANNO_REF":
+[],
+"VERSION":0,
+"ANNOREF_EVALUATION_ERROR":""
+}
+}

@@ -1,0 +1,4 @@
+@EndUserText.label: 'Web API for webhook'
+define service ZAPI_CE_BONUS_CALC_SA {
+  expose ZI_BONUS_CALC_SA as BonusCalculation;
+}

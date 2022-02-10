@@ -1,0 +1,12 @@
+unmanaged implementation in class zbi_bonus_calculation_sa unique;
+
+define behavior for ZI_BONUS_CALC_SA alias bonuscalculation
+etag master SAP_LastChangedDateTime
+lock master
+{
+  create;
+  update;
+  delete;
+  action calculate_bonus result [1] $self;
+  action calculate_bonus_event result [1] $self;
+}
