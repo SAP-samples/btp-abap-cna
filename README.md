@@ -6,7 +6,7 @@
 This is a reference application to demonstrate the cloud native capabilities of the ABAP RESTfull Application Programming Model (RAP) leveraging all available runtimes from SAP Business Technology Platform (Cloud Foundry, ABAP and Kyma) and some additional services such as Destination and Event Mesh.
 
 ## Solution Architecture
-![Bonus Calculation Architecture](https://i.imgur.com/AMuy3M9.jpeg "Bonus Calculation Architecture")
+![Bonus Calculation Architecture](https://i.imgur.com/WMIyTh8.png "Bonus Calculation Architecture")
 
 ## Requirements
 * S/4HANA Cloud landscape
