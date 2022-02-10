@@ -1,7 +1,6 @@
 # S/4HANA Cloud Side-by-Side Bonus Calculation Extension (RAP Application)
-<!--- Register repository https://api.reuse.software/register, then add REUSE badge:
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/REPO-NAME)](https://api.reuse.software/info/github.com/SAP-samples/REPO-NAME)
--->
+[![License: Apache2](https://img.shields.io/badge/License-Apache2-green.svg)](https://opensource.org/licenses/Apache-2.0)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/btp-abap-cna)](https://api.reuse.software/info/github.com/SAP-samples/btp-abap-cna)
 
 ## Description
 This is a reference application to demonstrate the cloud native capabilities of the ABAP RESTfull Application Programming Model (RAP) leveraging all available runtimes from SAP Business Technology Platform (Cloud Foundry, ABAP and Kyma) and some additional services such as Destination and Event Mesh.
