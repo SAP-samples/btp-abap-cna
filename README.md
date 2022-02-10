@@ -11,10 +11,12 @@ This is a reference application to demonstrate the cloud native capabilities of 
 ![Bonus Calculation Architecture](https://i.imgur.com/AMuy3M9.jpeg "Bonus Calculation Architecture")
 
 ## Requirements
+* S/4HANA Cloud landscape
 * Eclipse IDE (2021-06 or 2021-09)
 * ABAP Development Tools for Eclipse (ADT)
 * abapGit plug-in for Eclipse
-* SAP Business Technolgy Platform subaccount (with Cloud Foundry, ABAP Environment and Kyma Runtime enabled)
+* SAP Business Technology Platform subaccount (with Cloud Foundry, ABAP Environment and Kyma Runtime enabled)
+* Event Mesh service entitlement
 
 ## Download and Installation
 * Open Eclipse IDE
