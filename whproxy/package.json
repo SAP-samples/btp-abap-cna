@@ -1,0 +1,27 @@
+{
+  "name": "whproxy",
+  "version": "1.0.0",
+  "description": "Proxy to handle calls and authorization to BTP ABAP environment",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  },
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mendesthi/ABAPProxy.git"
+  },
+  "author": "Thiago Mendes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mendesthi/ABAPProxy/issues"
+  },
+  "homepage": "https://github.com/mendesthi/ABAPProxy#readme"
+}
